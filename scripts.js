@@ -384,7 +384,7 @@ function isittrue() {
   }
 
   console.log("Nihai XOR: ", sonuc);
-  alert("Syndrome Word: "+sonuc)
+  alert("Syndrome Word: "+sonuc);
 
 
 
