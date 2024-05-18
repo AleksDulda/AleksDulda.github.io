@@ -1,0 +1,102 @@
+<!-- Made By Aleks DULDA 21360859025-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='scripts.js'></script>
+   
+    <title>Error Correction</title>
+
+</head>
+<body style="background-color: #f1ebdf;">
+
+  <!-- HEADER Start -->
+<div class="header">
+
+
+  <h1 id="header">Single Error Correcting - Hamming Code</h1> <br>
+
+</div>
+
+  <!-- HEADER End -->
+
+  <!-- DATA IN DİV START -->
+  <div class="container">
+    <h3><b>DATA IN</b><hr></h3> 
+    <form class="bit-options">
+     
+      <input type="radio" id="4-bit" name="bit_number" value="4-bit" onclick="showTextBoxes(4)" >
+      <label for="4-bit">4-bit</label>
+      
+      <input type="radio" id="8-bit" name="bit_number" value="8-bit" onclick="showTextBoxes(8)">
+      <label for="8-bit">8-bit</label>
+      
+      <input type="radio" id="16-bit" name="bit_number" value="16-bit" onclick="showTextBoxes(16)">
+      <label for="16-bit">16-bit</label>
+    </form>
+    <br>
+    <div id="text-box-container"></div><br>
+    <div>*Please use 0 or 1 for data input</div>
+    <br>
+    <button onclick="kaydet()">SEND TO MEMORY</button>
+  </div>
+  
+  <!-- DATA IN DİV END -->
+
+  <br>
+
+  <!-- MEMORY DİV START -->
+
+  <div class="container1">
+    <h3><b>MEMORY</b></h3><hr><br>
+    <div id="text-box-container1"></div><br>
+    
+    <div class="p"><p>*Orange boxes are control bits of your data</p></div>
+    <div class="p"> <p>*You can change the bit that you want (Max 1 bit please)</p></div>
+
+  </div>
+
+  <!-- MEMORY DİV END -->
+
+  <br>
+
+  
+  <!-- COMPARE DİV START -->
+
+  <div class="container">
+    <h3><b> COMPARE </b></h3><hr><br>
+    <button onclick="checkthearray()">READ FROM MEMORY</button><br><br>
+    <div id="text-box-container2"></div>
+    <div id="text-box-container3"></div>
+    <br><br>
+    <div class="p"><p>*Changing "Expected Value" and "Reading Result" does not change anything. Is invalid.</p></div>
+  
+    
+    <button onclick="isittrue()">CHECK</button>
+    <br><br>
+   </div>
+
+  <!-- COMPARE DİV END -->
+
+  <br>
+
+  <!-- CORRECTOR DİV START -->
+  
+  <div class="container">
+    <h3><b>CORRECTOR</b></h3><hr><br>
+    <div id="text-box-container4"></div><br>
+    
+    <br>
+   
+
+  </div>
+
+ <!-- CORRECTOR DİV END -->
+
+
+  
+</body>
+</html>
