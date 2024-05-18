@@ -6,6 +6,8 @@ JS ile yazılmış Single Error Correcting - Hamming Code gerçekleştiren bir s
 ### Link
 Simülasyonu denemek için: https://aleksdulda.github.io
 
+Demo Videosunu izlemek için: https://youtu.be/t7w1la5wbcM
+
 ### Simülasyon nasıl çalışır?
 
 1) DATA IN
