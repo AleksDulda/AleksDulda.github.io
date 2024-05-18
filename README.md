@@ -10,7 +10,8 @@ Simülasyonu denemek için: https://aleksdulda.github.io
 
 1) DATA IN
 
-  Bu kısım kullanıcıdan veri girişi talep eder. 
+Bu kısım kullanıcıdan veri girişi talep eder. 
+
   - Bit sayısı seçilince LSB ve MSB tarafı belirlenir.
   - Seçilen bit sayısına göre kullanıcıdan binary olarak yönerge doğrultusunda bit girişi yapılır. 
   - "SEND TO MEMORY" tuşunabasılınca girilen veri kaydedilir.
@@ -27,6 +28,7 @@ Simülasyonu denemek için: https://aleksdulda.github.io
 3) COMPARE
 
    Bu kısımda bellekteği değiş(me)miş olan veriyi asıl olması gereken değerle aynı olup olmadığı görsel olarak gösterilir. Yapılan değişiklikler geçersizdir.
+   
    - "READ FROM MEMORY" tuşuna basılarak memorydeki değiş(me)miş veriyi çeker ve ekranda gösterir.
    -  Asıl olması gereken gerçek değer değiş(me)miş değerin altında gösterilir
    -  "CHECK" Tuşuna basılaraktan değiş(me)miş verinin "1" setlenen konumlarının binary olarak exorlanır ve sendrom kelimesi oluşur
@@ -36,7 +38,8 @@ Simülasyonu denemek için: https://aleksdulda.github.io
       * Sendrom kelimesi iki adet "1" varsa Data bitlerinden birisi değiştirilmiştir anlamına gelir. Bu yüzden o sendrom kelimesinin denk geldiği bit Invert edilir.
 
 
-4) CORRECTOR
+5) CORRECTOR
+   
   Bu kısımda bir önceki compare aşamasında yapılan işlemler sergilenmek üzere yazdırılır.
    - Değiştirilmemiş data bitleri yeşil
    - Kontrol bitleri değiştirilmiş ise mavi değiştirilmemiş ise yeşik
