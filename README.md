@@ -23,13 +23,13 @@ Simülasyonu denemek için: https://aleksdulda.github.io
 
   >Bu kısımda bellekte olan verilerde herhangi bit üzerinde (yapay olarak) hata oluşturmaya izin verilir
   
-   -Turuncu kutular kontrol bitleri olmak üzere oluşan kod üzerinde bir bitlik hata yapılabilir.
-   -Değişiklik yaptııktan/yapmadıktan sonra diğer bölüme geçilir
+   - Turuncu kutular kontrol bitleri olmak üzere oluşan kod üzerinde bir bitlik hata yapılabilir.
+   - Değişiklik yaptııktan/yapmadıktan sonra diğer bölüme geçilir
 
 3) COMPARE
-
-   >Bu kısımda bellekteği değiş(me)miş olan veriyi asıl olması gereken değerle aynı olup olmadığı görsel olarak gösterilir. Yapılan değişiklikler geçersizdir.
    
+>Bu kısımda bellekteği değiş(me)miş olan veriyi asıl olması gereken değerle aynı olup olmadığı görsel olarak gösterilir. Yapılan değişiklikler geçersizdir.
+
    - "READ FROM MEMORY" tuşuna basılarak memorydeki değiş(me)miş veriyi çeker ve ekranda gösterir.
    -  Asıl olması gereken gerçek değer değiş(me)miş değerin altında gösterilir
    -  "CHECK" Tuşuna basılaraktan değiş(me)miş verinin "1" setlenen konumlarının binary olarak exorlanır ve sendrom kelimesi oluşur
